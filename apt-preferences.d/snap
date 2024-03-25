@@ -1,0 +1,5 @@
+# deny snapd
+Package: snapd
+Pin: release o=Ubuntu
+Pin-Priority: -2000
+

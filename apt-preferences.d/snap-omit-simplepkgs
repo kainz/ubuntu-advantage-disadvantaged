@@ -1,0 +1,4 @@
+# purge certain snap packages
+Package: src:firefox
+Pin: release o=Ubuntu
+Pin-Priority: -2000
