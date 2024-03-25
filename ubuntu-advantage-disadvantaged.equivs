@@ -1,0 +1,31 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+
+Package: ubuntu-advantage-disadvantaged
+# Version: <enter version here; defaults to 1.0>
+Maintainer: Bryon Roche <kain@kain.org>
+# Pre-Depends: <comma-separated list of packages>
+# Depends: <comma-separated list of packages>
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+Provides: ubuntu-advantage-desktop-daemon (= 2.0), ubuntu-advantage-tools (= 99.0)
+Replaces: ubuntu-advantage-desktop-daemon, ubuntu-advantage-tools
+# Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Dummy placeholder for Ubuntu Advantage Bits
+ Placeholder to dummy out ubuntu advantage bits
+ .
+ Dummies out ubuntu advantage bits so that we do not unneccesarily communicate
+ outbound to vendors for marketing purposes.
